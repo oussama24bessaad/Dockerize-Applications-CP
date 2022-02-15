@@ -1,0 +1,6 @@
+﻿      Dockerize Mongodb
+      
+    • $ docker run -d -p 27017:27017 --name MONGO_CONTAINER mongo:latest
+    • $ docker ps: list all running instances. MONGO_CONTAINER container should be running.
+    • $ docker exec -it MONGO_CONTAINER mongo
+
